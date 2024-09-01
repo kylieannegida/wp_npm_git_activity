@@ -1,3 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+}
+
+.hidden {
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	margin-right: 40px;
+}
+
+.relative {
+	margin-top: 100px;
+}
+
+h1 {
+	margin-top: 40px;
+	text-align: center;
+	/*letter-spacing: 2px;*/
+	font-size: 50px;
+}
+
+p {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+div {
+	font-family: 'Frutiger Neue LT W1G';
+}
+
+
+
+
+
+
